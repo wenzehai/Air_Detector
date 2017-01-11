@@ -1,16 +1,19 @@
-section .page {
+
+/*密码登录界面开始*/
+section .pagelogin {
 	width: 720px;
 	height: 1280px;
 	background-color: #fcfcfc;
 }
-section .page .statusBar {
+section .pagelogin .statusBar {
+	font-size: 28px;
 	color: #fff;
 	background: rgba(0,0,0,0.5);
 }
-section .page .content  {
+section .pagelogin .content  {
 	position: relative;
 }
-section .page .content img {
+section .pagelogin .content img {
 	position: relative;
 	left: 50%;
 	top: 0px;
@@ -19,34 +22,675 @@ section .page .content img {
 	margin-top: 120px;
 	margin-bottom: 80px;
 }
-section .page .content .input {
-	background: green;
+section .pagelogin .content .input {
 	position: relative;
 
 }
-section .page .content .input form {
+section .pagelogin .content .input form {
 	color: rgba(0,0,0,0.3);
 	position: relative;
 	width: 675px;
 	margin-left: auto;
 	margin-right: auto;
 }
-section .page .content .input #phoneNum {
+section .pagelogin .content .input #phoneNum {
+	display: inline-block;
 	line-height: : 114px;
 	font-size: 28px;
 	width: 675px;
 	height: 114px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	border: 1px solid rgba(0,0,0,0.3)
-	margin: 100px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
 	box-sizing: border-box;
 }
-section .page .content .input #password {
-	font-size: 40px;
+section .pagelogin .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
 	width: 675px;
 	height: 114px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	border: 1px solid rgba(0,0,0,0.3)
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
 }
+
+section .pagelogin .content .input .btn_login {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .pagelogin .content .input #btn_submit {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .pagelogin .content .yzm {
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	font-size: 28px;
+}
+section .pagelogin .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 217px;
+	font-size: 28px;
+}
+section .pagelogin .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .pagelogin .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+
+/*密码登录界面结束*/
+
+
+/*验证码登录开始*/
+section .verilogin {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .verilogin .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .verilogin .content  {
+	position: relative;
+}
+section .verilogin .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .verilogin .content .input {
+	position: relative;
+
+}
+section .verilogin .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .verilogin .content .input #phoneNum {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .verilogin .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .verilogin .content .input .verify {
+	position: relative;
+	padding-top: 10px;
+}
+section .verilogin .content .input .verify #vericode {
+	display: inline-block;
+	float: left;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 310px;
+	height: 104px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .verilogin .content .input .verify #btn_vericode {
+	float: right;
+	margin-top: 10px;
+	width: 280px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .verilogin .content .input .btn_login {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .verilogin .content .input #btn_submit {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .verilogin .content .yzm {
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	font-size: 28px;
+}
+section .verilogin .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 217px;
+	font-size: 28px;
+}
+section .verilogin .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .verilogin .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+/*验证码登录结束*/
+
+
+
+/*注册界面开始*/
+section .signUp {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .signUp .statusBar {
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	font-size: 28px;
+}
+section .signUp .content  {
+	position: relative;
+}
+section .signUp .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .signUp .content .input {
+	/*background: green;*/
+	position: relative;
+
+}
+section .signUp .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .signUp .content .input #phoneNum {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .signUp .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .signUp .content .input .verify {
+	position: relative;
+	padding-top: 10px;
+}
+section .signUp .content .input .verify #vericode {
+	display: inline-block;
+	float: left;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 310px;
+	height: 104px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .signUp .content .input .verify #btn_vericode {
+	float: right;
+	margin-top: 10px;
+	width: 280px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .signUp .content .input .btn_login {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .signUp .content .input #btn_submit {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .signUp .content .yzm {
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	font-size: 28px;
+}
+section .signUp .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 217px;
+	font-size: 28px;
+}
+section .signUp .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .signUp .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+
+/*注册界面结束*/
+
+
+/*忘记密码开始*/
+section .forgetPwd {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .forgetPwd .statusBar {
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	font-size: 28px;
+}
+section .forgetPwd .content  {
+	position: relative;
+}
+section .forgetPwd .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .forgetPwd .content .input {
+	/*background: green;*/
+	position: relative;
+
+}
+section .forgetPwd .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .forgetPwd .content .input #phoneNum {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .forgetPwd .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .forgetPwd .content .input .verify {
+	position: relative;
+	padding-top: 10px;
+}
+section .forgetPwd .content .input .verify #vericode {
+	display: inline-block;
+	float: left;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 310px;
+	height: 104px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .forgetPwd .content .input .verify #btn_vericode {
+	float: right;
+	margin-top: 10px;
+	width: 280px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .forgetPwd .content .input .btn_login {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .forgetPwd .content .input #btn_submit {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .forgetPwd .content .yzm {
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	font-size: 28px;
+}
+section .forgetPwd .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 217px;
+	font-size: 28px;
+}
+section .forgetPwd .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .forgetPwd .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+section .forgetPwd .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 267px;
+	font-size: 28px;
+}
+section .forgetPwd .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .forgetPwd .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+/*忘记密码结束*/
+
+
+/*主界面没有设备开始*/
+section .pageMain {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .pageMain .statusBar {
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	font-size: 28px;
+}
+section .pageMain .header {
+	position: relative;
+	height: 90px;
+	background-color: #fcfcfc;
+}
+section .pageMain .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .pageMain .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .pageMain .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .pageMain .header .panelMenu .addEqp img{
+	position: absolute;
+	top: 19px;
+	right: 34px;
+}
+section .pageMain .content {
+	position: relative;
+	text-align: center;
+}
+section .pageMain .content .weatherPanel  {
+	position: relative;
+}
+section .pageMain .content .weatherPanel .temperature {
+	position: relative;
+	font-size: 180px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+section .pageMain .content .weatherPanel .temperature #tempIcon {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+section .pageMain .content .weatherPanel .temperature  span {
+	font-size: 180px;
+}
+section .pageMain .content .Info {
+	position: absolute;
+	right: 28px;
+	bottom: 250px;
+	border-radius: 35px;
+	width: 70px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	line-height: 70px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+section .pageMain .content .Info span {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #fff;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	background-color: #b90909;
+
+}
+section .pageMain .content .share {
+	position: absolute;
+	right: 28px;
+	bottom: 150px;
+	border-radius: 35px;
+	width: 70px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	line-height: 70px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+section .pageMain .content .airInfo {
+	height: 125px;
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+section .pageMain .content .airInfo ul {
+	position: relative;
+	list-style: none;
+	background-color: yellow;
+}
+section .pageMain .content .airInfo .airInfoUl li {
+	position: relative;
+	float: left;	
+	width: 240px;
+	font-size: 24px;
+	text-align: left;
+/*	background-color: red;
+*/}
+section .pageMain .content .airInfo .airInfoUl li p {
+	padding: 34px 0 5px 75px;
+}
+section .pageMain .content .airInfo .airInfoUl .pm span {
+	padding-left: 10px;
+	color: #b90909;
+}
+section .pageMain .content .airInfo .airInfoUl .status {
+	font-size: 20px;
+	color: rgba(0,0,0,0.3);
+	padding: 0px 0 5px 75px;
+}
+section .pageMain .content .airInfo .airInfoUl  img {
+	width: 31px;
+	height: 31px;
+	position: absolute;
+	top: 37px;
+	left: 35px;
+}
+
+
+
+
+
+
+/*主界面没有设备结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

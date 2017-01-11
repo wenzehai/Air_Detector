@@ -16,10 +16,10 @@
 </head>
 <body>
 <section>
-	<!-- 设备登录界面 -->
+	<!-- 密码登录界面 -->
 	<div class="page pagelogin" data-pagelevel="1">
 		<div class="statusBar">
-            <p>中国移动</p>
+            <p>状态栏  密码登录</p>
         </div>
         <div class="content">
             <img src="images/logo.png" width="279px;" height="276px;" id="logo">
@@ -27,11 +27,164 @@
                 <form>
                     <input type="text" name="phoneNum" placeholder="手机号" id="phoneNum"><br/>            
                     <input type="password" name="password" placeholder="密码" id="password"><br/> 
-                    <input type="submit" name="submit" value="登录" id="btn_submit">
+                    <div class="btn_login">
+                    	<input type="submit" name="submit" value="登录" id="btn_submit">
+                    </div>
                 </form>                
+            </div>
+            <div class="yzm">
+            	<p>验证码登录</p>
+            </div>
+            <div class="account">
+	            <div class="forget_account">
+	            	<p>忘记密码</p>
+	            </div>
+	            <div class="new_account">
+	            	<p>创建新账户</p>
+	            </div>
+	        </div>
+        </div>
+	</div>
+
+
+	<!-- 验证码登录 -->
+	<div class="page verilogin" data-pagelevel="1">
+		<div class="statusBar">
+            <p>状态栏  验证码登录</p>
+        </div>
+        <div class="content">
+            <img src="images/logo.png" width="279px;" height="276px;" id="logo">
+            <div class="input">
+                <form>
+                    <input type="text" name="phoneNum" placeholder="手机号" id="phoneNum"><br/>
+                    <div class="verify">
+                    	<input type="text" name="phoneNum" placeholder="验证码" id="vericode">
+                    	<input type="submit" name="submit" value="发送验证码" id="btn_vericode">
+                    </div>
+                    <div class="btn_login">
+                    	<input type="submit" name="submit" value="登录" id="btn_submit">
+                    </div>
+                </form>                
+            </div>
+            <div class="yzm">
+            	<p>密码登录</p>
+            </div>
+            <div class="account">
+	            <div class="forget_account">
+	            	<p>忘记密码</p>
+	            </div>
+	            <div class="new_account">
+	            	<p>创建新账户</p>
+	            </div>
+	        </div>
+        </div>
+	</div>
+
+
+	<!-- 注册界面 -->
+	<div class="page signUp" data-pagelevel="1">
+		<div class="statusBar">
+            <p>状态栏  注册</p>
+        </div>
+        <div class="content">
+            <img src="images/logo.png" width="279px;" height="276px;" id="logo">
+            <div class="input">
+                <form>
+                    <input type="text" name="phoneNum" placeholder="手机号" id="phoneNum"><br/>            
+                    <input type="password" name="password" placeholder="密码" id="password"><br/> 
+                    <div class="verify">
+                    	<input type="text" name="phoneNum" placeholder="验证码" id="vericode">
+                    	<input type="submit" name="submit" value="发送验证码" id="btn_vericode">
+                    </div>
+                    <div class="btn_login">
+                    	<input type="submit" name="submit" value="登录" id="btn_submit">
+                    </div>
+                </form>                
+            </div>
+            <div class="yzm">
+            	<p>密码登录</p>
             </div>
         </div>
 	</div>
+
+	<!-- 忘记密码 -->
+	<div class="page forgetPwd" data-pagelevel="1">
+		<div class="statusBar">
+            <p>状态栏  忘记密码</p>
+        </div>
+        <div class="content">
+            <img src="images/logo.png" width="279px;" height="276px;" id="logo">
+            <div class="input">
+                <form>
+                    <input type="text" name="phoneNum" placeholder="手机号" id="phoneNum"><br/>
+                    <div class="verify">
+                    	<input type="text" name="phoneNum" placeholder="验证码" id="vericode">
+                    	<input type="submit" name="submit" value="发送验证码" id="btn_vericode">
+                    </div>
+                    <div class="btn_login">
+                    	<input type="submit" name="submit" value="重置密码" id="btn_submit">
+                    </div>
+                </form>                
+            </div>
+            
+            <div class="account">
+	            <div class="forget_account">
+	            	<p>返回登录</p>
+	            </div>
+	            <div class="new_account">
+	            	<p>创建新账户</p>
+	            </div>
+	        </div>
+        </div>
+	</div>
+
+	<!-- 主界面没有设备 -->
+	<div class="page pageMain" data-pagelevel="2">
+		<div class="statusBar">
+			<p>状态栏  主界面没有设备</p>
+		</div>
+
+		<div class="header">
+			<ul class="panelMenu">
+				<li class="Menu"><a href="#"><img src="images/Menu.png" width="51px" height="36px"></a></li>
+				<li class="location"><p><a href="#">长沙</a></p></li>
+				<li class="addEqp"><a href="#"><img src="images/Plus.png" width="48px" height="48px" ></a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="weatherPanel">
+				<img src="images/weather.png" width="328px" height="264px" >
+				<div class="temperature">
+					<span>19</span>
+					<img src="images/tempIcon.png" width="38px" height="36px" id="tempIcon">				
+				</div>
+				<div class="Info">
+					<a href="#"><img src="images/infoIcon.png" width="50px" height="50px"></a>
+					<span>1</span>
+				</div>
+				<div class="share">
+					<a href="#"><img src="images/shareIcon.png" width="50px" height="50px"></a>
+				</div>
+				<div class="airInfo">
+					<ul class="airInfoUl">
+						<li class="wind"><img src="images/wind.png"><p>风力</p>
+						<p class="status">南风三级</p></li>
+						<li class="pm"><img src="images/pm.png"><p>PM2.5</p>
+						<p class="status">235<span>污染严重</span></p></li>
+						<li class="humidity"><img src="images/humidity.png"><p>空气湿度</p>
+						<p class="status">60%</p></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+
+	</div>
+
+
+
 	<!--设备界面首页  -->
 	<div class="page pageMain" id="pageMain" data-pageLevel="1">
 		<div class="panels">

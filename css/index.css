@@ -5,6 +5,904 @@
 	clear: both;
 }
 
+/*密码登录界面开始*/
+section .pagelogin {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .pagelogin .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .pagelogin .content  {
+	position: relative;
+}
+section .pagelogin .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .pagelogin .content .input {
+	position: relative;
+
+}
+section .pagelogin .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .pagelogin .content .input #phoneNum {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .pagelogin .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+
+section .pagelogin .content .input .btn_login {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .pagelogin .content .input #btn_submit {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .pagelogin .content .yzm {
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	font-size: 28px;
+}
+section .pagelogin .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 217px;
+	font-size: 28px;
+}
+section .pagelogin .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .pagelogin .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+
+/*密码登录界面结束*/
+
+
+/*验证码登录开始*/
+section .verilogin {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .verilogin .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .verilogin .content  {
+	position: relative;
+}
+section .verilogin .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .verilogin .content .input {
+	position: relative;
+
+}
+section .verilogin .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .verilogin .content .input #phoneNum {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .verilogin .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .verilogin .content .input .verify {
+	position: relative;
+	padding-top: 10px;
+}
+section .verilogin .content .input .verify #vericode {
+	display: inline-block;
+	float: left;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 310px;
+	height: 104px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .verilogin .content .input .verify #btn_vericode {
+	float: right;
+	margin-top: 10px;
+	width: 280px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .verilogin .content .input .btn_login {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .verilogin .content .input #btn_submit {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .verilogin .content .yzm {
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	font-size: 28px;
+}
+section .verilogin .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 217px;
+	font-size: 28px;
+}
+section .verilogin .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .verilogin .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+/*验证码登录结束*/
+
+
+
+/*注册界面开始*/
+section .signUp {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .signUp .statusBar {
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	font-size: 28px;
+}
+section .signUp .content  {
+	position: relative;
+}
+section .signUp .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .signUp .content .input {
+	/*background: green;*/
+	position: relative;
+
+}
+section .signUp .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .signUp .content .input #phoneNum {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .signUp .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .signUp .content .input .verify {
+	position: relative;
+	padding-top: 10px;
+}
+section .signUp .content .input .verify #vericode {
+	display: inline-block;
+	float: left;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 310px;
+	height: 104px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .signUp .content .input .verify #btn_vericode {
+	float: right;
+	margin-top: 10px;
+	width: 280px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .signUp .content .input .btn_login {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .signUp .content .input #btn_submit {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .signUp .content .yzm {
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	font-size: 28px;
+}
+section .signUp .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 217px;
+	font-size: 28px;
+}
+section .signUp .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .signUp .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+
+/*注册界面结束*/
+
+
+/*忘记密码开始*/
+section .forgetPwd {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .forgetPwd .statusBar {
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	font-size: 28px;
+}
+section .forgetPwd .content  {
+	position: relative;
+}
+section .forgetPwd .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .forgetPwd .content .input {
+	/*background: green;*/
+	position: relative;
+
+}
+section .forgetPwd .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .forgetPwd .content .input #phoneNum {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .forgetPwd .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .forgetPwd .content .input .verify {
+	position: relative;
+	padding-top: 10px;
+}
+section .forgetPwd .content .input .verify #vericode {
+	display: inline-block;
+	float: left;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 310px;
+	height: 104px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .forgetPwd .content .input .verify #btn_vericode {
+	float: right;
+	margin-top: 10px;
+	width: 280px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .forgetPwd .content .input .btn_login {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .forgetPwd .content .input #btn_submit {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+section .forgetPwd .content .yzm {
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	font-size: 28px;
+}
+section .forgetPwd .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 217px;
+	font-size: 28px;
+}
+section .forgetPwd .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .forgetPwd .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+section .forgetPwd .content .account {
+	position: relative;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	padding-top: 267px;
+	font-size: 28px;
+}
+section .forgetPwd .content .account .forget_account {
+	padding-left: 83px;
+	float: left;
+}
+section .forgetPwd .content .account .new_account {
+	float: right;
+	padding-right: 83px;
+}
+/*忘记密码结束*/
+
+
+/*主界面没有设备开始*/
+section .pageMain {
+	width: 720px;
+	height: 1950px;
+	background-color: #fcfcfc;
+}
+section .pageMain .statusBar {
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	font-size: 28px;
+}
+section .pageMain .header {
+	position: relative;
+	height: 90px;
+	background-color: #fcfcfc;
+}
+section .pageMain .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .pageMain .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .pageMain .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .pageMain .header .panelMenu .addEqp img{
+	position: absolute;
+	top: 19px;
+	right: 34px;
+}
+section .pageMain .content {
+	position: relative;
+	text-align: center;
+}
+section .pageMain .content .weatherPanel  {
+	position: relative;
+}
+section .pageMain .content .weatherPanel .share_alert {
+	position: relative;
+	width: 90%;
+	height: 312px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	background-color: #fff;
+}
+section .pageMain .content .weatherPanel .share_alert #close_alert {
+	position: absolute;
+	top: -25px;
+	right: -25px;
+	width: 55px;
+	height: 54px;
+}
+section .pageMain .content .weatherPanel .share_alert .share_alert_header {
+	height: 88px;
+	line-height: 88px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	font-size: 28px;
+	color: rgba(0,0,0,0.7);
+}
+section .pageMain .content .weatherPanel .share_alert .share_alert_content ul {
+	list-style: none;
+} 
+section .pageMain .content .weatherPanel .share_alert .share_alert_content li {
+	float: left;
+	display: block;
+	width: 160px;
+	font-size: 20px;
+	color: rgba(0,0,0,0.5);
+
+}
+section .pageMain .content .weatherPanel .share_alert .share_alert_content img {
+	padding: 30px 0 0 0;
+}
+
+section .pageMain .content .weatherPanel .temperature {
+	position: relative;
+	font-size: 180px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+section .pageMain .content .weatherPanel .temperature #tempIcon {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+section .pageMain .content .weatherPanel .temperature  span {
+	font-size: 180px;
+}
+section .pageMain .content .Info {
+	position: absolute;
+	right: 28px;
+	bottom: 250px;
+	border-radius: 35px;
+	width: 70px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	line-height: 70px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+section .pageMain .content .Info span {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #fff;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	background-color: #b90909;
+
+}
+section .pageMain .content .share {
+	position: absolute;
+	right: 28px;
+	bottom: 150px;
+	border-radius: 35px;
+	width: 70px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	line-height: 70px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+section .pageMain .content .airInfo {
+	height: 125px;
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+section .pageMain .content .airInfo ul {
+	position: relative;
+	list-style: none;
+	background-color: yellow;
+}
+section .pageMain .content .airInfo .airInfoUl li {
+	position: relative;
+	float: left;	
+	width: 240px;
+	font-size: 24px;
+	text-align: left;
+/*	background-color: red;
+*/}
+section .pageMain .content .airInfo .airInfoUl li p {
+	padding: 34px 0 5px 75px;
+}
+section .pageMain .content .airInfo .airInfoUl .pm span {
+	padding-left: 10px;
+	color: #b90909;
+}
+section .pageMain .content .airInfo .airInfoUl .status {
+	font-size: 20px;
+	color: rgba(0,0,0,0.3);
+	padding: 0px 0 5px 75px;
+}
+section .pageMain .content .airInfo .airInfoUl  img {
+	width: 31px;
+	height: 31px;
+	position: absolute;
+	top: 37px;
+	left: 35px;
+}
+section .pageMain .content .airMeta .airMeta_header {
+	margin-top: 20px;
+	padding: 20px 0;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	height: 112px;
+	box-sizing: border-box;
+	line-height: 72px;
+	position: relative;
+	font-size: 28px;
+	text-align: left;
+}
+section .pageMain .content .airMeta .airMeta_header p {
+	padding-left: 100px;
+	font-weight: 600;
+	color: rgba(0,0,0,0.7);
+}
+section .pageMain .content .airMeta .airMeta_header #Metalist_icon {
+	position: absolute;
+	top: 35px;
+	left: 37px;
+}
+section .pageMain .content .airMeta .airMeta_header  #arrow_down_icon {
+	position: absolute;
+	top: 45px;
+	right: 37px;
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left {
+	width: 50%;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-right: 1px solid rgba(0,0,0,0.3);
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_right {
+	float: right;
+	width: 50%;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_top, section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_top {
+	height: 64px;
+	position: relative;
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_top img , section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_top img{
+	position: absolute;
+	left: 44px;
+	top: 26px;
+
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_top .airData, section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_top .airData {
+	display: inline-block;
+	font-size: 24px;
+	color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 12px;
+	left: 100px;
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_top .airData span, section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_top .airData span {
+	font-size: 48px;
+	color: rgba(0,0,0,0.5);
+}
+
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_top .humanStatus, section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_top .humanStatus {
+	display: inline-block;
+	position: absolute;
+	top: 39px;
+	right: 34px;
+	font-size: 20px;
+	color: rgba(0,0,0,0.7);
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_bottom, section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_bottom {
+	height: 45px;
+	position: relative;
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_bottom p, section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_bottom p {
+	display: inline-block;
+	position: absolute;
+	top: 11px;
+	left: 35px;	
+	font-size: 18px;
+	color: rgba(0,0,0,0.5);
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_bottom .bg_gray, section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_bottom .bg_gray {
+	position: absolute;
+	top: 18px;
+	left: 100px;
+	display: block;
+	width: 228px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+}
+section .pageMain .content .airMeta .airMeta_content .Meta_left .Meta_bottom .Metadata, section .pageMain .content .airMeta .airMeta_content .Meta_right .Meta_bottom .Metadata {
+	position: relative;
+	display: block;
+	width: 107px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: #0e9508;
+}
+section .pageMain .content .eqpList {
+	height: 400px;
+	display: block;
+}
+
+section .pageMain .content .eqpList .eqpList_header {
+	margin-top: 20px;
+	padding: 20px 0;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	height: 112px;
+	box-sizing: border-box;
+	line-height: 72px;
+	position: relative;
+	font-size: 28px;
+	text-align: left;
+}
+section .pageMain .content .eqpList .eqpList_header p {
+	padding-left: 100px;
+	font-weight: 600;
+	color: rgba(0,0,0,0.7);
+}
+section .pageMain .content .eqpList .eqpList_header #List-Icon {
+	position: absolute;
+	top: 35px;
+	left: 37px;
+}
+section .pageMain .content .eqpList .eqpList_header  #arrow_down_icon {
+	position: absolute;
+	top: 45px;
+	right: 37px;
+} 
+section .pageMain .content .eqpList .addEqp_panel {
+	display: none;
+	height: 360px;
+}
+section .pageMain .content .eqpList .addEqp_panel p {
+	font-size: 28px;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 60px;
+}
+section .pageMain .content .eqpList .addEqp_panel input {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	display: block;
+	width: 168px;
+	height: 168px;
+	border-radius: 84px;
+	border-style: none;
+	font-size: 48px;
+	line-height: 168px;
+	color: #fff;
+	background-color: #39aad6;
+}
+section .pageMain .content .eqpList .eqpList_content {
+	height: 350px;
+	position: relative;
+
+}
+section .pageMain .content .eqpList .eqpList_content ul {
+	list-style: none;
+}
+section .pageMain .content .eqpList .eqpList_content .eqpList_list {
+	height: 135px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+section .pageMain .content .eqpList .eqpList_content .eqpList_list .eqp_icon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 20px;
+	left: 33px;
+	background: #39aad6;
+	border-radius: 50px;
+}
+section .pageMain .content .eqpList .eqpList_content .eqpList_list .eqp_icon img {
+	padding-top: 23px;
+	width: 53px;
+	height: 53px;
+}
+section .pageMain .content .eqpList .eqpList_content .eqpList_list #eqp_name {
+	font-size: 24px;
+	text-align: left;
+	color: rgba(0,0,0,0.5);
+	padding-left: 177px;
+	padding-top: 40px;
+}
+section .pageMain .content .eqpList .eqpList_content .eqpList_list #eqp_id {
+	font-size: 20px;
+	text-align: left;
+	color: rgba(0,0,0,0.5);
+	padding-left: 177px;
+}
+section .pageMain .content .eqpList .eqpList_content .eqpList_list #eqp_id span {
+	font-size: 20px;
+	text-align: left;
+	color: rgba(0,0,0,0.7);
+}
+
+section .pageMain .content .eqpList .eqpList_content .eqpList_list #eqp_info {
+	position: absolute;
+	top: 65px;
+	right: 40px;
+}
+
+
+
+/*主界面没有设备结束*/
+
+
 
 /*添加设备开始*/
 
@@ -21,7 +919,7 @@ section .page_addEqp .statusBar {
 section .page_addEqp .header {
 	position: relative;
 	height: 90px;
-	background-color: #fcfcfc;
+	background-color: #e0e0e0;
 }
 section .page_addEqp .header ul {
 	position: relative;
@@ -106,23 +1004,609 @@ section .page_addEqp .content .input .btn_addEqp #btn_blue_addEqp {
 
 /*添加设备结束*/
 
+/*扫描二维码*/
+section .page_scanCode {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .page_scanCode .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .page_scanCode .header {
+	position: relative;
+	height: 90px;
+	background-color: #e0e0e0;
+}
+section .page_scanCode .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .page_scanCode .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .page_scanCode .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .page_scanCode .content {
+	background-image: url(../images/scanCode_bg.jpg);
+}
+section .page_scanCode .content .black_top {
+	height: 355px;
+	background-color: rgba(0,0,0,0.5);
+}
+section .page_scanCode .content .black_bottom {
+	margin-top: 280px;
+	height: 501px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+/*连接网络*/
+section .page_connectWifi {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .page_connectWifi .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .page_connectWifi .header {
+	position: relative;
+	height: 90px;
+	background-color: #e0e0e0;
+}
+section .page_connectWifi .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .page_connectWifi .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .page_connectWifi .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .page_connectWifi .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .page_connectWifi .content .input {
+	position: relative;
+
+}
+section .page_connectWifi .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .page_connectWifi .content .input #wifiName {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .page_connectWifi .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+
+section .page_connectWifi .content .input .btn_connectWifi {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .page_connectWifi .content .input #btn_blue_connectWifi {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+
+
+/*空气净化器界面*/
+section .page_air_detector {
+	width: 720px;
+	height: 1800px;
+	background-color: #fcfcfc;
+}
+section .page_air_detector .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .page_air_detector .header {
+	position: relative;
+	height: 90px;
+	background-color: #e0e0e0;
+}
+section .page_air_detector .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .page_air_detector .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+
+section .page_air_detector .header .panelMenu .btn_back img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .page_air_detector .header .panelMenu .btn_edit img {
+	position: absolute;
+	top: 21px;
+	right: 34px;
+}
+section .page_air_detector .content .air_detector_detail .air_detector_header {
+	height: 395px;
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+section .page_air_detector .content .air_detector_detail .air_detector_header .logo {
+	width: 266px;
+	height: 266px;
+	border-radius: 133px;
+	border: 1px solid rgba(0,0,0,0.3);
+	background-color: #fff;
+	margin: 65px auto 65px auto;
+
+}
+section .page_air_detector .content .air_detector_detail .air_detector_header .logo .textInlogo {
+	width: 230px;
+	
+	margin: 55px auto 0 auto;
+}
+section .page_air_detector .content .air_detector_detail .air_detector_header .logo p {
+	font-size: 20px;
+	color: rgba(0,0,0,0.3);
+	text-align: center;
+}
+section .page_air_detector .content .air_detector_detail .air_detector_header .logo span {
+	font-size: 46px;
+	color: #39aad6;
+}
+section .page_air_detector .content .air_detector_detail .air_detector_control {
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+section .page_air_detector .content .air_detector_detail .air_detector_control p {
+	font-size: 30px;
+	color: rgba(0,0,0,0.7);
+	line-height: 112px;
+	padding-left: 45px;
+}
+section .page_air_detector .content .air_detector_detail .air_detector_control img {
+	position: absolute;
+	top: 26px;
+	right: 34px;
+}
+section .page_air_detector .content .airMeta .airMeta_header {
+	margin-top: 20px;
+	padding: 20px 0;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	height: 112px;
+	box-sizing: border-box;
+	line-height: 72px;
+	position: relative;
+	font-size: 28px;
+	text-align: left;
+}
+section .page_air_detector .content .airMeta .airMeta_header p {
+	padding-left: 100px;
+	font-weight: 600;
+	color: rgba(0,0,0,0.7);
+}
+section .page_air_detector .content .airMeta .airMeta_header #Metalist_icon {
+	position: absolute;
+	top: 35px;
+	left: 37px;
+}
+section .page_air_detector .content .airMeta .airMeta_header  #arrow_down_icon {
+	position: absolute;
+	top: 45px;
+	right: 37px;
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left {
+	width: 50%;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-right: 1px solid rgba(0,0,0,0.3);
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_right {
+	float: right;
+	width: 50%;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_top, section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_top {
+	height: 64px;
+	position: relative;
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_top img , section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_top img{
+	position: absolute;
+	left: 44px;
+	top: 26px;
+
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_top .airData, section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_top .airData {
+	display: inline-block;
+	font-size: 24px;
+	color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 12px;
+	left: 100px;
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_top .airData span, section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_top .airData span {
+	font-size: 48px;
+	color: rgba(0,0,0,0.5);
+}
+
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_top .humanStatus, section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_top .humanStatus {
+	display: inline-block;
+	position: absolute;
+	top: 39px;
+	right: 34px;
+	font-size: 20px;
+	color: rgba(0,0,0,0.7);
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_bottom, section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_bottom {
+	height: 45px;
+	position: relative;
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_bottom p, section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_bottom p {
+	display: inline-block;
+	position: absolute;
+	top: 11px;
+	left: 35px;	
+	font-size: 18px;
+	color: rgba(0,0,0,0.5);
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_bottom .bg_gray, section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_bottom .bg_gray {
+	position: absolute;
+	top: 18px;
+	left: 100px;
+	display: block;
+	width: 228px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+}
+section .page_air_detector .content .airMeta .airMeta_content .Meta_left .Meta_bottom .Metadata, section .page_air_detector .content .airMeta .airMeta_content .Meta_right .Meta_bottom .Metadata {
+	position: relative;
+	display: block;
+	width: 107px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: #0e9508;
+}
+
+section .page_air_detector .content .airMetaGraph .airMetaGraph_control {
+	margin-top: 20px;
+	position: relative;
+	border-top: 1px solid rgba(0,0,0,0.3);
+}
+section .page_air_detector .content .airMetaGraph .airMetaGraph_control p {
+	font-size: 30px;
+	color: rgba(0,0,0,0.7);
+	line-height: 112px;
+	padding-left: 45px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+section .page_air_detector .content .airMetaGraph .airMetaGraph_control #toggle_icon{
+	position: absolute;
+	top: 26px;
+	right: 34px;
+}
 
 
 
+/*资讯推荐*/
+section .page_post {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .page_post .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .page_post .header {
+	position: relative;
+	height: 90px;
+	background-color: #e0e0e0;
+}
+section .page_post .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .page_post .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .page_post .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .page_post .content .msg {
+	position: relative;
+	text-align: center;
+}
+section .page_post .content .msg .postDate {
+	margin: 30px 0;
+}
+section .page_post .content .msg .postDate p {
+	font-size: 24px;
+	line-height: 24px;	
+	color: rgba(0,0,0,0.3);
+	text-align: center;
+
+}
+section .page_post .content .msg .Introduction {
+	position: relative;
+	width: 675px;
+	height: 460px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	margin: 0 auto;
+}
+section .page_post .content .msg .Introduction h1 {
+	font-size: 30px;
+	color: rgba(0,0,0,0.7);
+	line-height: 30px;
+	padding: 31px 0 20px 25px;
+	text-align: left;
+
+}
+section .page_post .content .msg .Introduction  #ad {
+	width: 630px;
+	height: 250px;
+	margin: 10px 0 18px 0;
+}
+section .page_post .content .msg .Introduction .postDetails {
+	position: relative;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	height: 95px;
+}
+section .page_post .content .msg .Introduction .postDetails p {
+	font-size: 30px;
+	color: rgba(0,0,0,0.7);
+	text-align: left;
+	padding-left: 30px;
+	line-height: 95px;
+
+}
+section .page_post .content .msg .Introduction .postDetails #Arrow-Right-Icon {
+	position: absolute;
+	top: 30px;
+	right: 40px;
+}
 
 
+/*资讯详情*/
+section .page_article {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .page_article .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .page_article .header {
+	position: relative;
+	height: 90px;
+	background-color: #e0e0e0;
+}
+section .page_article .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .page_article .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .page_article .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .page_article .content .article {
+	margin-top: 40px 30px;
+}
+section .page_article .content .article h1 {
+	font-size: 30px;
+	padding: 30px 0 30px 40px;
+}
+section .page_article .content .article  img {
+	margin: 0 40px; 
+}
+section .page_article .content .article  p {
+	margin: 30px 40px; 
+	font-size: 24px;
+	line-height: 30px;	
+	color: rgba(0,0,0,0.5);
+}
 
 
+/*关于我们*/
+section .page_aboutUs {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .page_aboutUs .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .page_aboutUs .header {
+	position: relative;
+	height: 90px;
+	background-color: #e0e0e0;
+}
+section .page_aboutUs .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .page_aboutUs .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .page_aboutUs .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .page_aboutUs .content .article {
+	margin-top: 40px 30px;
+}
+section .page_aboutUs .content .article h1 {
+	font-size: 30px;
+	padding: 30px 0 30px 40px;
+	color: #3aa8d9;
+}
+section .page_aboutUs .content .article  img {
+	margin: 0 40px; 
+}
+section .page_aboutUs .content .article  p {
+	margin: 30px 40px; 
+	font-size: 24px;
+	line-height: 30px;	
+	color: rgba(0,0,0,0.5);
+}
+section .page_aboutUs .content .contactUs {
+	margin: 30px auto 0 auto;
+	position: relative;
+	width: 90%;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	padding: 20px 0;
+}
+section .page_aboutUs .content .contactUs p {
+	padding-top: 22px;
+	display: inline-block;
+	font-size: 28px;
+	color:  rgba(0,0,0,0.7);
+}
+section .page_aboutUs .content .contactUs .btn_tel {
+	position: absolute;
+	top: 25px;
+	right: 0px;
+	width: 164px;
+	height: 72px;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,0.3);
+	font-size: 28px;
+	display: inline-block;
+	color: rgba(0,0,0,0.7);
+	background-color: #3aa8d9;
+}
 
-
-
-
-
-
-
-
-
-
+/*选项*/
+section .page_option {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+	position: relative;
+}
+section .page_option .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
 
 
 

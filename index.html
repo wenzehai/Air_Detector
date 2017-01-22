@@ -16,7 +16,309 @@
 </head>
 <body>
 <section>
-	
+	<!-- 密码登录界面 -->
+	<div class="page pagelogin" data-pagelevel="1">
+		<div class="statusBar">
+            <p>状态栏  密码登录</p>
+        </div>
+        <div class="content">
+            <img src="images/logo.png" width="279px;" height="276px;" id="logo">
+            <div class="input">
+                <form>
+                    <input type="text" name="phoneNum" placeholder="手机号" id="phoneNum"><br/>            
+                    <input type="password" name="password" placeholder="密码" id="password"><br/> 
+                    <div class="btn_login">
+                    	<input type="submit" name="submit" value="登录" id="btn_submit">
+                    </div>
+                </form>                
+            </div>
+            <div class="yzm">
+            	<p>验证码登录</p>
+            </div>
+            <div class="account">
+	            <div class="forget_account">
+	            	<p>忘记密码</p>
+	            </div>
+	            <div class="new_account">
+	            	<p>创建新账户</p>
+	            </div>
+	        </div>
+        </div>
+	</div>
+
+
+	<!-- 验证码登录 -->
+	<div class="page verilogin" data-pagelevel="1">
+		<div class="statusBar">
+            <p>状态栏  验证码登录</p>
+        </div>
+        <div class="content">
+            <img src="images/logo.png" width="279px;" height="276px;" id="logo">
+            <div class="input">
+                <form>
+                    <input type="text" name="phoneNum" placeholder="手机号" id="phoneNum"><br/>
+                    <div class="verify">
+                    	<input type="text" name="phoneNum" placeholder="验证码" id="vericode">
+                    	<input type="submit" name="submit" value="发送验证码" id="btn_vericode">
+                    </div>
+                    <div class="btn_login">
+                    	<input type="submit" name="submit" value="登录" id="btn_submit">
+                    </div>
+                </form>                
+            </div>
+            <div class="yzm">
+            	<p>密码登录</p>
+            </div>
+            <div class="account">
+	            <div class="forget_account">
+	            	<p>忘记密码</p>
+	            </div>
+	            <div class="new_account">
+	            	<p>创建新账户</p>
+	            </div>
+	        </div>
+        </div>
+	</div>
+
+
+	<!-- 注册界面 -->
+	<div class="page signUp" data-pagelevel="1">
+		<div class="statusBar">
+            <p>状态栏  注册</p>
+        </div>
+        <div class="content">
+            <img src="images/logo.png" width="279px;" height="276px;" id="logo">
+            <div class="input">
+                <form>
+                    <input type="text" name="phoneNum" placeholder="手机号" id="phoneNum"><br/>            
+                    <input type="password" name="password" placeholder="密码" id="password"><br/> 
+                    <div class="verify">
+                    	<input type="text" name="phoneNum" placeholder="验证码" id="vericode">
+                    	<input type="submit" name="submit" value="发送验证码" id="btn_vericode">
+                    </div>
+                    <div class="btn_login">
+                    	<input type="submit" name="submit" value="登录" id="btn_submit">
+                    </div>
+                </form>                
+            </div>
+            <div class="yzm">
+            	<p>密码登录</p>
+            </div>
+        </div>
+	</div>
+
+	<!-- 忘记密码 -->
+	<div class="page forgetPwd" data-pagelevel="1">
+		<div class="statusBar">
+            <p>状态栏  忘记密码</p>
+        </div>
+        <div class="content">
+            <img src="images/logo.png" width="279px;" height="276px;" id="logo">
+            <div class="input">
+                <form>
+                    <input type="text" name="phoneNum" placeholder="手机号" id="phoneNum"><br/>
+                    <div class="verify">
+                    	<input type="text" name="phoneNum" placeholder="验证码" id="vericode">
+                    	<input type="submit" name="submit" value="发送验证码" id="btn_vericode">
+                    </div>
+                    <div class="btn_login">
+                    	<input type="submit" name="submit" value="重置密码" id="btn_submit">
+                    </div>
+                </form>                
+            </div>
+            
+            <div class="account">
+	            <div class="forget_account">
+	            	<p>返回登录</p>
+	            </div>
+	            <div class="new_account">
+	            	<p>创建新账户</p>
+	            </div>
+	        </div>
+        </div>
+	</div>
+
+	<!-- 主界面没有设备 -->
+	<div class="page pageMain" data-pagelevel="2">
+		<div class="statusBar">
+			<p>状态栏  主界面没有设备</p>
+		</div>
+
+		<div class="header">
+			<ul class="panelMenu">
+				<li class="Menu"><a href="#"><img src="images/Menu.png" width="51px" height="36px"></a></li>
+				<li class="location"><p><a href="#">长沙</a></p></li>
+				<li class="addEqp"><a href="#"><img src="images/Plus.png" width="48px" height="48px" ></a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="weatherPanel">
+				<img src="images/weather.png" width="328px" height="264px" >
+				<div class="temperature">
+					<span>19</span>
+					<img src="images/tempIcon.png" width="38px" height="36px" id="tempIcon">				
+				</div>
+				<div class="Info">
+					<a href="#"><img src="images/infoIcon.png" width="50px" height="50px"></a>
+					<span>1</span>
+				</div>
+				<div class="share">
+					<a href="#"><img src="images/shareIcon.png" width="50px" height="50px"></a>
+				</div>
+				<div class="share_alert">
+					<img src="images/close.png" id="close_alert">
+					<div class="share_alert_header">
+						<p>分享</p>
+					</div>
+					<div class="share_alert_content">
+						<ul>
+							<li><img src="images/wechatZone.png"><p>朋友圈</p></li>
+							<li><img src="images/wechaFriends.png"><p>微信好友</p></li>
+							<li><img src="images/Qzone.png"><p>QQ空间</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="airInfo">
+					<ul class="airInfoUl">
+						<li class="wind"><img src="images/wind.png"><p>风力</p>
+						<p class="status">南风三级</p></li>
+						<li class="pm"><img src="images/pm.png"><p>PM2.5</p>
+						<p class="status">235<span>污染严重</span></p></li>
+						<li class="humidity"><img src="images/humidity.png"><p>空气湿度</p>
+						<p class="status">60%</p></li>
+					</ul>
+				</div>
+			</div>
+			<div class="airMeta">
+				<div class="airMeta_header">
+					<img src="images/Metalist.png" id="Metalist_icon">
+					<p>室内空气报告</p>
+					<img src="images/arrow_down.png" id="arrow_down_icon">
+				</div>
+				<div class="airMeta_content">
+					<div class="Meta_left">
+						<div class="Meta_top">
+							<img src="images/temperature.png">
+							<p class="airData"><span>25</span>℃</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>温度</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_right">
+						<div class="Meta_top">
+							<img src="images/humidity_small_icon.png">
+							<p class="airData"><span>67</span>%</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>湿度</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_left">
+						<div class="Meta_top">
+							<img src="images/pm2.5_icon.png">
+							<p class="airData"><span>25</span>ug/m³</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>PM2.5</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_right">
+						<div class="Meta_top">
+							<img src="images/voc_icon.png">
+							<p class="airData"><span>65</span>ug/m³</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>VOC</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_left">
+						<div class="Meta_top">
+							<img src="images/formaldehyde_icon.png">
+							<p class="airData"><span>25</span>ug/m³</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>甲醛</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_right">
+						<div class="Meta_top">
+							<img src="images/temperature.png">
+							<p class="airData"><span>25</span>℃</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>温度</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+				<div class="clearfix">
+					
+				</div>
+
+			<div class="eqpList">
+				<div class="eqpList_header">
+					<img src="images/List-Icon.png" id="List-Icon">
+					<p>设备列表</p>
+					<img src="images/arrow_down.png" id="arrow_down_icon">
+				</div>
+				<div class="addEqp_panel">
+					<p>您还没有设备，点击按钮添加设备吧！</p>
+					<input type="submit" name="addEqp" value="+" id="addEqp_big_btn">
+				</div>
+				<div class="eqpList_content">
+					<ul>
+						<li class="eqpList_list">
+							<div class="eqp_icon"><img src="images/air_Detector.png">
+							</div>
+							<p id="eqp_name">
+								空气检测仪
+							</p>
+							<p id="eqp_id">
+								设备ID:<span>123456</span>
+							</p>
+							<img src="images/Dots-Horisontal-Icon.png" id="eqp_info">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+
 	<!-- 添加设备 -->
 	<div class="page page_addEqp" data-pagelevel="3">
 		<div class="statusBar">
@@ -43,6 +345,303 @@
         </div>
 	</div>
 
+	<!-- 扫码 -->
+	<div class="page page_scanCode" data-pagelevel="3">
+		<div class="statusBar">
+            <p>状态栏  扫码</p>
+        </div>
+        <div class="header">
+			<ul class="panelMenu">
+				<li class="Menu"><a href="#"><img src="images/Arrow-Left-Icon.png" width="48px" height="34px"></a></li>
+				<li class="location"><p><a href="#">扫描二维码</a></p></li>
+			</ul>
+		</div>
+        <div class="content">
+            <div class="black_top">
+            	
+            </div>
+
+            <div class="black_bottom">
+            	
+            </div>
+        </div>
+	</div>
+
+	<!-- 连接网络 -->
+	<div class="page page_connectWifi" data-pagelevel="3">
+		<div class="statusBar">
+            <p>状态栏  连接网络</p>
+        </div>
+        <div class="header">
+			<ul class="panelMenu">
+				<li class="Menu"><a href="#"><img src="images/Arrow-Left-Icon.png" width="48px" height="34px"></a></li>
+				<li class="location"><p><a href="#">连接网络</a></p></li>
+			</ul>
+		</div>
+        <div class="content">
+            <img src="images/logo.png" width="279px;" height="276px;" id="logo">
+            <div class="input">
+                <form>
+                    <input type="text" name="wifiName" placeholder="网络名称" id="wifiName"><br/>            
+                    <input type="password" name="password" placeholder="密码" id="password"><br/> 
+                    <div class="btn_connectWifi">
+                    	<input type="submit" name="submit" value="连接网络" id="btn_blue_connectWifi">
+                    </div>
+                </form>                
+            </div>
+        </div>
+	</div>
+	<!-- 空气净化器界面 -->
+	<div class="page page_air_detector" data-pagelevel="3">
+		<div class="statusBar">
+            <p>状态栏  空气检测仪</p>
+        </div>
+        <div class="header">
+			<ul class="panelMenu">
+				<li class="btn_back"><a href="#"><img src="images/Arrow-Left-Icon.png" width="48px" height="34px"></a></li>
+				<li class="location"><p><a href="#">空气检测仪</a></p></li>
+				<li class="btn_edit"><a href="#"><img src="images/Edit_Icon.png" width="50px" height="50px"></a></li>
+			</ul>
+		</div>
+        <div class="content">
+           	<div class="air_detector_detail">
+           		<div class="air_detector_header">
+           			<div class="logo">
+	           			<div class="textInlogo">
+	           				<p><span>易家智能<br/>空气检测仪</span></p>
+	           			</div>           				
+           				<p>ID:123456</p>
+           			</div>
+           		</div>
+           		<div class="air_detector_control">
+           			<p>屏幕常亮</p>
+           			<div><img src="images/toggle.png"></div>
+           		</div>
+           	</div>
+        	<div class="airMeta">
+				<div class="airMeta_header">
+					<img src="images/Metalist.png" id="Metalist_icon">
+					<p>室内空气报告</p>
+					<img src="images/arrow_down.png" id="arrow_down_icon">
+				</div>
+				<div class="airMeta_content">
+					<div class="Meta_left">
+						<div class="Meta_top">
+							<img src="images/temperature.png">
+							<p class="airData"><span>25</span>℃</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>温度</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_right">
+						<div class="Meta_top">
+							<img src="images/humidity_small_icon.png">
+							<p class="airData"><span>67</span>%</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>湿度</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_left">
+						<div class="Meta_top">
+							<img src="images/pm2.5_icon.png">
+							<p class="airData"><span>25</span>ug/m³</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>PM2.5</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_right">
+						<div class="Meta_top">
+							<img src="images/voc_icon.png">
+							<p class="airData"><span>65</span>ug/m³</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>VOC</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_left">
+						<div class="Meta_top">
+							<img src="images/formaldehyde_icon.png">
+							<p class="airData"><span>25</span>ug/m³</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>甲醛</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Meta_right">
+						<div class="Meta_top">
+							<img src="images/temperature.png">
+							<p class="airData"><span>25</span>℃</p>
+							<p class="humanStatus">舒适</p>
+						</div>
+						<div class="Meta_bottom">
+							<p>温度</p>
+							<div class="bg_gray">
+								<div class="Metadata">								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="airMetaGraph">
+				<div class="airMetaGraph_control">
+           			<p>一周空气质量</p>
+           			<div><img src="images/toggle.png" id="toggle_icon"></div>
+           			<img src="images/graph.jpg" id="graph">
+           		</div>
+			</div>
+        </div>
+	</div>
+
+
+	<!-- 资讯推荐 -->
+	<div class="page page_post" data-pagelevel="3">
+		<div class="statusBar">
+            <p>状态栏  资讯推荐</p>
+        </div>
+        <div class="header">
+			<ul class="panelMenu">
+				<li class="Menu"><a href="#"><img src="images/Arrow-Left-Icon.png" width="48px" height="34px"></a></li>
+				<li class="location"><p><a href="#">资讯推荐</a></p></li>
+			</ul>
+		</div>
+        <div class="content">
+            <div class="msg">
+            	<div class="postDate">
+            		<p>1月4日</p>
+            	</div>
+            	<div class="Introduction">
+            		<h1>新风空气净化系统</h1>
+            		<img src="images/ad.jpg" id="ad">
+            		<div class="postDetails">
+            			<p>查看详情</p>
+            			<img src="images/Arrow-Right-Icon.png" id="Arrow-Right-Icon">
+            		</div>            			
+            	</div>
+            	</div>
+            </div>
+        </div>
+	</div>
+	
+	<!-- 资讯详情 -->
+	<div class="page page_article" data-pagelevel="3">
+		<div class="statusBar">
+            <p>状态栏  资讯详情</p>
+        </div>
+        <div class="header">
+			<ul class="panelMenu">
+				<li class="Menu"><a href="#"><img src="images/Arrow-Left-Icon.png" width="48px" height="34px"></a></li>
+				<li class="location"><p><a href="#">资讯详情</a></p></li>
+			</ul>
+		</div>
+        <div class="content">
+            <div class="article">
+            	<h1>易家智能空气检测仪</h1>
+            	<img src="images/ad.jpg">
+            	<p>
+            	空气净化器又称“空气清洁器”、空气清新机、净化器，是指能够吸附、分解或转化各种空气污染物（一般包括PM2.5、粉尘、花粉、异味、甲醛之类的装修污染、细菌、过敏原等），有效提高空气清洁度的产品，主要分为家用 、商用、工业、楼宇。
+            	</p>
+            	<p>空气净化器中有多种不同的技术和介质，使它能够向用户提供清洁和安全的空气。常用的空气净化技术有：吸附技术、负（正）离子技术、催化技术、光触媒技术、超结构光矿化技术、HEPA高效过滤技术、静电集尘技术等；材料技术主要有：光触媒、活性炭、合成纤维、HEAP高效材料、负离子发生器等。现有的空气净化器多采为复合型，即同时采用了多种净化技术和材料介质。</p>
+            </div>
+        </div>
+	</div>
+
+	<!-- 关于我们 -->
+	<div class="page page_aboutUs" data-pagelevel="3">
+		<div class="statusBar">
+            <p>状态栏  关于我们</p>
+        </div>
+        <div class="header">
+			<ul class="panelMenu">
+				<li class="Menu"><a href="#"><img src="images/Arrow-Left-Icon.png" width="48px" height="34px"></a></li>
+				<li class="location"><p><a href="#">关于我们</a></p></li>
+			</ul>
+		</div>
+        <div class="content">
+            <div class="article">
+            	<h1>上海易看电子科技有限公司</h1>
+            	<img src="images/company.jpg">
+            	<p>
+            	上海卓易科技股份有限公司成立于2007年，总部位于上海，公司员工500多人。卓易科技是全球首家具有硬件基因的移动互联网公司，也是移动互联网时代，首家将硬件、操作系统、应用服务整合在一起的“入口”型公司。 卓易科技旗下的物联事业群，业务涵盖智能手机、平板、智能穿戴产品的研发、设计和服务。具备TD-LTE、FDD-LTE、WCDMA、TD-SCDMA、CDMA、EVDO、GSM等4G、3G 产品研发实力。在坚持自主研发的基础上进行开放合作，与MTK、Qualcomm、Spreadtrum、VIA、Samsung、Toshiba、Sony等著名芯片公司及器件供应商建立了战略伙伴关系。 卓易科技旗下的互联事业群拥有卓易市场、Freeme OS、ADroi等多个行业领先的移动互联网产品及平台。卓易市场是国内较早上线的安卓软件和游戏下载平台，已累积拥有近亿用户，应用下载量累计超过30亿次，日活跃用户300万左右。 
+            	</p>
+            	<p> Freeme OS是公司推出的基于Android系统深度定制、优化、开发的智能操作系统，目前已优化近3000项功能，获得上百项发明专利。 </p>
+            </div>
+            <div class="contactUs">
+            	<P>联系电话：15201487264</P>
+            	<input type="button" name="tel" class="btn_tel" value="拨打电话">
+            </div>
+        </div>
+	</div>
+
+
+	<!-- 系统消息 -->
+	<div class="page page_message" data-pagelevel="3">
+		<div class="statusBar">
+            <p>状态栏  系统消息</p>
+        </div>
+        <div class="header">
+			<ul class="panelMenu">
+				<li class="Menu"><a href="#"><img src="images/Arrow-Left-Icon.png" width="48px" height="34px"></a></li>
+				<li class="location"><p><a href="#">系统消息</a></p></li>
+			</ul>
+			
+		</div>
+		<div class="Panel_reading">
+				<div class="msg_all">
+					<p>全部消息(<span>2</span>)</p>
+				</div>
+				<div class="msg_readed">
+					<p>已读消息(<span>3</span>)</p>
+				</div>
+				<div class="clearfix">					
+				</div>
+			</div>
+        <div class="content">            	
+            <div class="brief_Message">
+            	<h1>易家智能空气检测仪</h1>
+            	<P>空气净化器又称“空气清洁器”、空气清新机、净化器，是指能够吸附、分解或转化各种空气污染物。</P>            	
+            </div>
+        </div>
+	</div>
+
+	<!-- 选项 -->
+	<div class="page page_option" data-pagelevel="3">
+		<div class="statusBar">
+            <p>状态栏  选项</p>
+        </div>        
+	</div>
+	<div class="Panel">
+		
+	</div>
 
 </section>
 

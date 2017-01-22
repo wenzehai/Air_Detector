@@ -964,6 +964,158 @@ section .page_addEqp .content .input .btn_addEqp #btn_blue_addEqp {
 
 /*添加设备结束*/
 
+/*扫描二维码*/
+section .page_scanCode {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .page_scanCode .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .page_scanCode .header {
+	position: relative;
+	height: 90px;
+	background-color: #fcfcfc;
+}
+section .page_scanCode .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .page_scanCode .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .page_scanCode .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .page_scanCode .content {
+	background-image: url(../images/scanCode_bg.jpg);
+}
+section .page_scanCode .content .black_top {
+	height: 355px;
+	background-color: rgba(0,0,0,0.5);
+}
+section .page_scanCode .content .black_bottom {
+	margin-top: 280px;
+	height: 501px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+/*连接网络*/
+section .page_connectWifi {
+	width: 720px;
+	height: 1280px;
+	background-color: #fcfcfc;
+}
+section .page_connectWifi .statusBar {
+	font-size: 28px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+}
+section .page_connectWifi .header {
+	position: relative;
+	height: 90px;
+	background-color: #fcfcfc;
+}
+section .page_connectWifi .header ul {
+	position: relative;
+	list-style: none;
+	width: 720px;
+}
+section .page_connectWifi .header .panelMenu li {
+	position: relative;
+	line-height: 90px;
+	display: inline-block;
+	float: left;
+	width: 240px;
+	box-sizing: border-box;
+	width: 240px;
+	text-align: center;
+	font-size: 30px;
+}
+section .page_connectWifi .header .panelMenu .Menu img {
+	position: absolute;
+	top: 21px;
+	left: 34px;
+}
+section .page_connectWifi .content img {
+	position: relative;
+	left: 50%;
+	top: 0px;
+	text-align: center;
+	margin-left: -140px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+section .page_connectWifi .content .input {
+	position: relative;
+
+}
+section .page_connectWifi .content .input form {
+	color: rgba(0,0,0,0.3);
+	position: relative;
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .page_connectWifi .content .input #wifiName {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+section .page_connectWifi .content .input #password {
+	display: inline-block;
+	line-height: : 114px;
+	font-size: 28px;
+	width: 675px;
+	height: 114px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: none;
+	border-right: 1px solid rgba(0,0,0,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	border-left: 1px solid rgba(0,0,0,0.3);
+	padding: 0px 20px 0px 20px;
+	box-sizing: border-box;
+}
+
+section .page_connectWifi .content .input .btn_connectWifi {
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .page_connectWifi .content .input #btn_blue_connectWifi {
+	margin-top: 40px;
+	width: 335px;	
+	height: 90px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 45px;
+	border: none;
+	background-color: #39aad6;
+}
+
 
 
 
